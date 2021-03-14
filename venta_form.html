@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="./css/tablet.css"
+      media="screen and (max-width:999px)"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/mobil.css"
+      media="screen and (max-width:768px)"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/grid.css" />
+    <link rel="stylesheet" href="./css/venta.css" />
+    <title>Brand</title>
+  </head>
+  <body>
+    <!-- aqui empieza el navbar -->
+    <nav>
+      <a href="index.html" class="brand_image">
+        <img
+          src="https://static.platzi.com/media/tmp/class-files/git/Desarrollo_web/Desarrollo_web-c9/images/logo.png"
+          alt=""
+        />
+      </a>
+      <div class="nav_options">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="productos.html">Producto y descripción</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container_pago">
+      <div class="product_select">
+        <figure>
+          <img
+            src=" https://static.platzi.com/media/tmp/class-files/git/Desarrollo_web/Desarrollo_web-c19/images/ben1.png"
+            alt=""
+            class="product_select-img"
+          />
+        </figure>
+        <h2>Producto 1</h2>
+        <p>
+          Miles de productos hay en el mercado, pero nada como una caja con
+          gatitos
+        </p>
+      </div>
+      <form
+        class="product_form"
+        action="https://www.paypal.com/cgi-bin/webscr"
+        method="POST"
+        target="blank"
+      >
+        <input type="hidden" name="cmd" value="_s-xclick" />
+        <input type="hidden" name="hosted_button_id" value="R59PVHMF9RZTY" />
+
+        <label for="name">Nombre </label>
+        <input class="input" type="text" name="name" id="name" />
+        <label for="mail">Mail </label>
+        <input class="input" type="text" name="email" id="mail" />
+        <label for="phone">Teléfono </label>
+        <input class="input" type="text" name="phone" id="phone" />
+        <input class="button" type="submit" value="Confirmar Pago" />
+      </form>
+    </div>
+    <footer class="footer">
+      <a href="">Términos y condiciones</a>
+      <a href="mailto:contacto@mail.com"><p>contacto@mail.com</p></a>
+    </footer>
+
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+.main_section {
+  padding: 4rem 12rem;
+}
+.main_section > h1 {
+  font-size: 2rem;
+}
+.benefits {
+  padding: 9rem 5rem;
+}
+.mentions_title {
+  font-size: 2rem;
+  margin: 1.5rem;
+}
+@media screen and (max-width: 600px) {
+  .main_section {
+    padding: 3rem 8rem;
+  }
+  .products {
+    display: initial;
+    width: 100%;
+    height: auto;
+  }
+  .product {
+    margin: 15px auto;
+  }
+  .benefits {
+    padding: 5rem;
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .benefit {
+    margin: 15px auto 0;
+    width: 23.3rem;
+    text-align: center;
+  }
+  .mentions {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .mention {
+    margin: 15px auto 0;
+    height: 17rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main_section {
+    padding: 2rem 6rem;
+  }
+  .main_section > h1 {
+    font-size: 1.4rem;
+  }
+}
